@@ -4,6 +4,10 @@ Este repositório mantém uma versão do template LaTeX **Template Trabalhos
 Acadêmicos UFSC A4**, voltado a teses e dissertações da Universidade Federal de
 Santa Catarina (UFSC), usando a classe `abntex2`.
 
+Caso identifique divergências em relação aos modelos oficiais da Biblioteca
+Universitária da UFSC ou precise informar alguma atualização futura, entre em
+contato pelo LinkedIn: https://www.linkedin.com/in/henrique-buzin/
+
 ## Origem
 
 A base inicial deste repositório é o template oficial publicado no Overleaf:

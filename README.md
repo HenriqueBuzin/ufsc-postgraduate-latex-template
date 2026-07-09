@@ -41,3 +41,18 @@ biber main
 pdflatex main.tex
 pdflatex main.tex
 ```
+
+## PDF/A
+
+O template está preparado para gerar PDF/A-2B diretamente na compilação com
+LaTeX moderno por meio de `\DocumentMetadata`, declarado no início de `main.tex`:
+
+```tex
+\DocumentMetadata{
+	pdfstandard=A-2b
+}
+```
+
+Após a compilação, valide o PDF final em uma ferramenta compatível com PDF/A,
+pois arquivos externos incluídos no trabalho, como imagens e PDFs, também podem
+influenciar a conformidade final.

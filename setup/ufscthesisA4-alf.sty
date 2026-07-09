@@ -24,6 +24,28 @@
 % INÍCIO DAS CUSTOMIZACOES PARA A UNIVERSIDADE FEDERAL DE SANTA CATARINA
 % ---
 
+\renewcommand{\autor}[1]{%
+	\gdef\@author{#1}%
+	\begingroup%
+		\renewcommand{\thanks}[1]{}%
+		\renewcommand{\and}{\unskip, }%
+		\renewcommand{\andnext}{\unskip, }%
+		\renewcommand{\thanksmark}[1]{}%
+		\renewcommand{\thanksgap}[1]{}%
+		\protected@xdef\theauthor{#1}%
+	\endgroup%
+}
+
+\renewcommand{\titulo}[1]{%
+	\gdef\@title{#1}%
+	\begingroup%
+		\renewcommand{\thanks}[1]{}%
+		\renewcommand{\thanksmark}[1]{}%
+		\renewcommand{\thanksgap}[1]{}%
+		\protected@xdef\thetitle{#1}%
+	\endgroup%
+}
+
 % ---
 % Pacotes básicos 
 % ---

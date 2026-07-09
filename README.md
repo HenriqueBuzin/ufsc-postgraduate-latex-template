@@ -6,7 +6,7 @@ Santa Catarina (UFSC), usando a classe `abntex2`.
 
 Caso identifique divergências em relação aos modelos oficiais da Biblioteca
 Universitária da UFSC ou precise informar alguma atualização futura, entre em
-contato pelo LinkedIn: https://www.linkedin.com/in/henrique-buzin/
+contato pelo LinkedIn: https://www.linkedin.com/in/henrique-buzin
 
 ## Origem
 

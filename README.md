@@ -28,7 +28,8 @@ Melhorias integradas:
 
 - ajuste da folha de certificação/assinatura ao padrão atual da Biblioteca
   Universitária da UFSC;
-- suporte à geração de PDF/A diretamente no fluxo de compilação LaTeX.
+- suporte à geração de PDF/A diretamente no fluxo de compilação LaTeX;
+- inclusão da ficha catalográfica em PNG para preservar a conformidade PDF/A;
 - uso de `\input` nos capítulos para evitar incremento indevido de contadores
   de tabelas ao reutilizar arquivos auxiliares entre compilações.
 
@@ -59,8 +60,17 @@ Após a compilação, valide o PDF final em uma ferramenta compatível com PDF/A
 pois arquivos externos incluídos no trabalho, como imagens e PDFs, também podem
 influenciar a conformidade final.
 
-Para manter a conformidade PDF/A, a ficha catalográfica deve ser gerada no site
-da Biblioteca Universitária da UFSC e incluída no template em formato PNG,
-substituindo o arquivo `beforetext/Ficha_Catalografica.png`. O PDF gerado pelo
-sistema da BU pode conter fontes não incorporadas, o que pode impedir a validação
-do documento final como PDF/A.
+## Ficha Catalográfica
+
+A ficha catalográfica deve ser gerada no site da Biblioteca Universitária da
+UFSC:
+
+https://ficha.bu.ufsc.br/
+
+Para manter a conformidade PDF/A, use a opção **Gerar PNG** no sistema da BU e
+substitua o arquivo `beforetext/Ficha_Catalografica.png` pelo arquivo gerado. O
+template inclui essa imagem automaticamente na página da ficha catalográfica.
+
+Evite incluir diretamente o PDF da ficha catalográfica quando o objetivo for
+validar o trabalho como PDF/A. O PDF gerado pelo sistema da BU pode conter fontes
+não incorporadas, o que pode impedir a validação do documento final.

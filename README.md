@@ -58,3 +58,9 @@ LaTeX moderno por meio de `\DocumentMetadata`, declarado no início de `main.tex
 Após a compilação, valide o PDF final em uma ferramenta compatível com PDF/A,
 pois arquivos externos incluídos no trabalho, como imagens e PDFs, também podem
 influenciar a conformidade final.
+
+O template evita incluir PDFs externos nos elementos pré-textuais para reduzir
+problemas de validação, como fontes não incorporadas ou espaços de cor
+dependentes de dispositivo. Ao substituir a ficha catalográfica pelo arquivo
+definitivo gerado pela BU, verifique se o arquivo incluído também está adequado
+para PDF/A.

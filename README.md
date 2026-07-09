@@ -24,7 +24,7 @@ A branch `main` deve conter apenas a base oficial importada, a documentação do
 projeto e funcionalidades já validadas e integradas por merge. As melhorias são
 desenvolvidas em branches separadas antes de serem incorporadas.
 
-Melhorias previstas:
+Melhorias integradas:
 
 - ajuste da folha de certificação/assinatura ao padrão atual da Biblioteca
   Universitária da UFSC;

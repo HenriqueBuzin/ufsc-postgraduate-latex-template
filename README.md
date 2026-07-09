@@ -29,6 +29,8 @@ Melhorias integradas:
 - ajuste da folha de certificação/assinatura ao padrão atual da Biblioteca
   Universitária da UFSC;
 - suporte à geração de PDF/A diretamente no fluxo de compilação LaTeX.
+- uso de `\input` nos capítulos para evitar incremento indevido de contadores
+  de tabelas ao reutilizar arquivos auxiliares entre compilações.
 
 ## Compilação
 

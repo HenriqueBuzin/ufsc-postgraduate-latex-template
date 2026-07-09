@@ -59,8 +59,8 @@ Após a compilação, valide o PDF final em uma ferramenta compatível com PDF/A
 pois arquivos externos incluídos no trabalho, como imagens e PDFs, também podem
 influenciar a conformidade final.
 
-O template evita incluir PDFs externos nos elementos pré-textuais para reduzir
-problemas de validação, como fontes não incorporadas ou espaços de cor
-dependentes de dispositivo. Ao substituir a ficha catalográfica pelo arquivo
-definitivo gerado pela BU, verifique se o arquivo incluído também está adequado
-para PDF/A.
+Para manter a conformidade PDF/A, a ficha catalográfica deve ser gerada no site
+da Biblioteca Universitária da UFSC e incluída no template em formato PNG,
+substituindo o arquivo `beforetext/Ficha_Catalografica.png`. O PDF gerado pelo
+sistema da BU pode conter fontes não incorporadas, o que pode impedir a validação
+do documento final como PDF/A.
